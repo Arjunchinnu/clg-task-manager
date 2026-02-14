@@ -1,6 +1,6 @@
 import axiosClient from "./axiosClient";
 
-export const fetchTasksApi = async ({ params }) => {
+export const fetchTasksApi = async (params) => {
   const res = await axiosClient.get("/tasks", { params });
   return res.data; // success,message, data:tasks[],metadata
 };
