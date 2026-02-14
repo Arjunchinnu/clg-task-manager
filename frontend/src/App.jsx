@@ -6,7 +6,7 @@ import AdminRoute from "./routes/AdminRoute";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import TasksList from "./pages/TasksList";
+import TasksList from "./pages/TaskList";
 import TaskCreate from "./pages/TaskCreate";
 import TaskDetails from "./pages/TaskDetails";
 import TaskEdit from "./pages/TaskEdit";
